@@ -199,9 +199,9 @@ SETTINGS = {
     "PHL": {
         "IBF_API_URL": IBF_URL,
         "PASSWORD": IBF_PASSWORD,
-        "mock": False,
+        "mock": True,
         "placeCodeInitial": 'PHL',
-        "if_mock_trigger": False,
+        "if_mock_trigger": True,
         "notify_email": True,
         "placecodeLen":9, #LENGTH OF CHARS IN ADMIN3 PLACECODE -LENGTH OF CHARS IN COUNTRYCODEiso
         "glofasReturnPeriod":'rl5',
