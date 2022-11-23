@@ -254,9 +254,9 @@ SETTINGS = {
 
 # Change this date only in case of specific testing purposes
 
-CURRENT_DATE = date.today()
+#CURRENT_DATE = date.today()
 
-#CURRENT_DATE=date.today() - timedelta(1) # to use yesterday's date
+CURRENT_DATE=date.today() - timedelta(1) # to use yesterday's date
 # if data folder should be downloaded from google drive 
 GOOGLE_DRIVE_DATA_URL = 'https://drive.google.com/file/d/14MbG4uFPGJCduM5aLkvgSGqA8io6Gh9C/view?usp=sharing'
 
